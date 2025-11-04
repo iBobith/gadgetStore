@@ -1,0 +1,140 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Smartwatch",
+      "price": 199.99,
+      "short_description": " Stay connected on the go with this sleek and versatile smartwatch.",
+      "long_description": " This smartwatch offers a range of features including fitness tracking, notifications, and voice commands. Its long-lasting battery and durable design make it perfect for everyday wear. ",
+      "year": 2022,
+      "RAM": "1GB",
+      "warranty_period": "2 years",
+      "features": [
+        "Fitness tracking",
+        "Notifications",
+        "Voice commands",
+        "Long battery life",
+        "Durable design"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Laptop",
+      "price": 899.99,
+      "short_description": " Make your work and entertainment with you wherever you go with this laptop.",
+      "long_description": "This laptop is packed with features for both work and play. Its powerful processor and graphics card make it perfect for demanding applications, while its sleek design and long battery life make it great for travel and entertainment.",
+      "year": 2023,
+      "RAM": "16GB",
+      "warranty_period": "2 years",
+      "features": [
+        "Intel Core i7 processor",
+        "NVIDIA graphics",
+        "15-inch display",
+        "Backlit keyboard",
+        "Fast charging"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Smart Assistant",
+      "price": 149.99,
+      "short_description": " Make your life easier with this smart assistant that can answer your questions.",
+      "long_description": "The Smart Assistant is the perfect addition to any home. With its voice-activated technology, you can get hands-free help with everything from setting reminders to playing music.",
+      "year": 2022,
+      "RAM": "512MB",
+      "warranty_period": "1 year",
+      "features": [
+        "Voice-activated",
+        "Smart home integration",
+        "High-quality speaker",
+        "Customizable wake word",
+        "Personalized responses"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Smartphone",
+      "price": 699.99,
+      "short_description": " Stay connected and productive on the go with this powerful smartphone.   ",
+      "long_description": "This smartphone is packed with features for both work and play. Its powerful processor and high-quality camera make it perfect for demanding applications, while its sleek design and long battery life make it great for travel and entertainment.",
+      "year": 2023,
+      "RAM": "8GB",
+      "warranty_period": "2 years",
+      "features": [
+        "6.2-inch OLED display",
+        "Triple-lens camera system",
+        "5G connectivity",
+        "Wireless charging",
+        "Water-resistant"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Earbuds",
+      "price": 129.99,
+      "short_description": " Enjoy your favorite music and podcasts with these comfortable earbuds.",
+      "long_description": "These earbuds are designed for maximum comfort and crystal-clear sound. With noise-cancellation technology and long battery life, they're perfect for commuting, working out, or just relaxing at home.",
+      "year": 2022,
+      "RAM": "N/A",
+      "warranty_period": "1 year",
+      "features": [
+        "Noise-cancellation technology",
+        "Long battery life",
+        "Comfortable fit",
+        "Wireless charging case",
+        "Touch controls"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Tablet",
+      "price": 399.99,
+      "short_description": " Stay productive and entertained on the go with this versatile tablet.",
+      "long_description": "This tablet is perfect for anyone who needs to stay connected on the go. With a large display and powerful processor, it's great for work or entertainment, and its long battery life means you can use it all day.",
+      "year": 2023,
+      "RAM": "4GB",
+      "warranty_period": "2 years",
+      "features": [
+        "10.1-inch display",
+        "Fast charging",
+        "Quad-core processor",
+        "Expandable storage",
+        "Dual cameras"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Portable Speaker",
+      "price": 99.99,
+      "short_description": " Take your music anywhere with this compact and powerful portable speaker.",
+      "long_description": "This portable speaker is perfect for anyone who loves to take their music with them. With Bluetooth connectivity and a long battery life, you can enjoy your favorite tunes anywhere you go.",
+      "year": 2022,
+      "RAM": "N/A",
+      "warranty_period": "1 year",
+      "features": [
+        "Bluetooth connectivity",
+        "Long battery life",
+        "Water-resistant",
+        "360-degree sound",
+        "Built-in microphone"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Web Camera",
+      "price": 59.99,
+      "short_description": " Stay connected with this high-quality web camera. ",
+      "long_description": "This web camera is perfect for video conferencing, streaming, and more. With high-quality video and audio, you can stay connected with friends, family, and colleagues from anywhere.",
+      "year": 2022,
+      "RAM": "N/A",
+      "warranty_period": "1 year",
+      "features": [
+        "1080p video",
+        "Stereo microphone",
+        "Plug-and-play setup",
+        "Adjustable clip",
+        "Compatible with Windows and Mac"
+      ]
+    }
+  ]
+}
