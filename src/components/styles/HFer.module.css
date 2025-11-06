@@ -31,16 +31,6 @@
 }
 
 .title {
-  .fixed {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 40;
-  }
-  .container {
-    height: 4rem;
-  }
   font-size: 1.125rem;
   font-weight: 600;
 }
@@ -55,6 +45,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+  font-weight: bold;
 }
 
 .link {
@@ -66,8 +57,8 @@
   color: #0f172a;
 
   .footer {
-    border-top: 1px solid #e5e7eb;
-    background-color: rgba(255, 255, 255, 0.95);
+    border-top: 1px solid #ffffff;
+    background-color: #ffffff;
   }
   @media (prefers-color-scheme: dark) {
     .footer {
@@ -78,7 +69,7 @@
 }
 @media (prefers-color-scheme: dark) {
   .link {
-    color: #e6eef8;
+    color: #e0eeff;
   }
   .link:hover {
     color: #ffffff;

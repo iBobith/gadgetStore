@@ -1,0 +1,9 @@
+{
+  "brandName": "Gadget Store",
+  "links": [
+    { "name": "Home", "href": "#" },
+    { "name": "Products", "href": "#" },
+    { "name": "Contact", "href": "#" },
+    { "name": "Cart (0)", "href": "#" }
+  ]
+}

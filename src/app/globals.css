@@ -9,8 +9,6 @@
 @layer base {
   html,
   body {
-    background-color: var(--background);
-    color: var(--foreground);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
@@ -19,11 +17,11 @@
   }
 
   a {
-    color: #6366f1;
+    color: #ffffff;
     text-decoration: none;
   }
   a:hover {
-    color: #4f46e5;
+    color: #ffffff;
   }
 }
 
@@ -45,8 +43,4 @@
     padding-left: 2rem;
     padding-right: 2rem;
   }
-}
-
-.content-with-footer {
-  padding-bottom: 4rem;
 }

@@ -1,0 +1,94 @@
+.hero {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-top: 2rem;
+  background-color: #fde68a;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.5rem;
+  }
+  .heroText {
+    text-align: left;
+  }
+}
+
+.heroText {
+  width: 100%;
+  text-align: left;
+  max-width: 25rem;
+  padding: 0 1rem 0 10rem;
+}
+
+.heroTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.heroLead {
+  color: #475569;
+  margin-top: 0.5rem;
+  max-width: 40rem;
+}
+
+.heroActions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 2rem;
+}
+
+.heroActions button {
+  min-width: 8rem;
+  padding: 0.6rem 1rem;
+  border-radius: 0.2rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: transform 120ms ease, box-shadow 120ms ease, opacity 120ms ease;
+  box-shadow: 0 4px 10px rgba(2, 6, 23, 0.08);
+}
+
+.heroActions button:first-child {
+  background: transparent;
+  color: #3f51b5;
+  border: 2px solid rgba(15, 23, 42, 0.08);
+}
+
+.heroActions button:nth-child(2) {
+  color: #ffffff;
+  background: #3f51b5;
+  border: 2px solid rgba(15, 23, 42, 0.08);
+}
+
+.heroActions button:hover {
+  transform: translateY(-1.5px);
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.12);
+}
+
+.heroActions button:active {
+  transform: translateY(-1px);
+  opacity: 0.98;
+}
+
+.heroActions button:focus {
+  outline: 3px solid rgba(99, 102, 241, 0.12);
+  outline-offset: 2px;
+}
+
+.heroImage {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  padding-right: 10rem;
+}

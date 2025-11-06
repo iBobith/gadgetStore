@@ -1,0 +1,26 @@
+[
+  {
+    "heroTitle": "Experience the Future of Technology Today!",
+    "heroText": "Unleash your inner tech enthusiast with our wide range of gadgets. Become a pro expert within a moment.",
+    "contact": "CONTACT US",
+    "shop": "SHOP NOW"
+  },
+  {
+    "featureId": "wireless",
+    "featureIcon": "wifiIcon",
+    "featureTitle": "Wireless Freedom",
+    "featureText": "Wireless gadgets that provide freedom of movement while using them."
+  },
+  {
+    "featureId": "connected",
+    "featureIcon": "phoneWatchIcon",
+    "featureTitle": "Stay Connected",
+    "featureText": "Gadgets that help people stay connected with their loved ones and colleagues."
+  },
+  {
+    "featureId": "smarthome",
+    "featureIcon": "lightIcon",
+    "featureTitle": "Smart Home",
+    "featureText": "Gadgets that make your home smarter and more efficient at the space of your own home."
+  }
+]
