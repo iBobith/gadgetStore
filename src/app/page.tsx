@@ -1,7 +1,7 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import Hero from "../components/Hero";
-import Features from "../components/Features";
+import Header from "../components/headerFooter/Header";
+import Footer from "../components/headerFooter/Footer";
+import Hero from "../components/homePage/Hero";
+import Features from "../components/homePage/Features";
 
 export default function Home() {
   return (

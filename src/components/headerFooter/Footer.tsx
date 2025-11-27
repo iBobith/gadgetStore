@@ -1,4 +1,4 @@
-import styles from "./styles/HFer.module.css";
+import styles from "../styles/HFer.module.css";
 
 const Footer = () => {
   return (

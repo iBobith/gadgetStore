@@ -3,7 +3,8 @@
     "heroTitle": "Experience the Future of Technology Today!",
     "heroText": "Unleash your inner tech enthusiast with our wide range of gadgets. Become a pro expert within a moment.",
     "contact": "CONTACT US",
-    "shop": "SHOP NOW"
+    "shop": "SHOP NOW",
+    "shopRef": "/products"
   },
   {
     "featureId": "wireless",

@@ -1,13 +1,15 @@
-import styles from "./styles/Hero.module.css";
-import homeData from "../assets/homeText.json";
+"use client";
+import styles from "../styles/Hero.module.css";
+import homeData from "../../assets/homeText.json";
 import Image from "next/image";
-import hero from "../assets/images/hero image.png";
+import hero from "../../assets/images/hero image.png";
 
 type HeroText = {
   heroTitle: string;
   heroText: string;
   contact: string;
   shop: string;
+  shopRef: string;
 };
 type FeatureLike = {
   featureId?: string;
@@ -26,6 +28,13 @@ export default function Hero() {
   const lead = heroEntry?.heroText;
   const contact = heroEntry?.contact;
   const shop = heroEntry?.shop;
+  const shopRef = heroEntry?.shopRef;
+
+  function handleShopClick() {
+    if (shopRef) {
+      window.location.href = shopRef;
+    }
+  }
 
   return (
     <div className="w-full">
@@ -36,7 +45,7 @@ export default function Hero() {
             <p className={styles.heroLead}>{lead}</p>
             <div className={styles.heroActions}>
               <button>{contact}</button>
-              <button>{shop}</button>
+              <button onClick={handleShopClick}>{shop}</button>
             </div>
           </div>
 

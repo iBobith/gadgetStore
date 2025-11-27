@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Smartwatch",
       "price": 199.99,
       "short_description": " Stay connected on the go with this sleek and versatile smartwatch.",
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Laptop",
       "price": 899.99,
       "short_description": " Make your work and entertainment with you wherever you go with this laptop.",
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Smart Assistant",
       "price": 149.99,
       "short_description": " Make your life easier with this smart assistant that can answer your questions.",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Smartphone",
       "price": 699.99,
       "short_description": " Stay connected and productive on the go with this powerful smartphone.   ",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Earbuds",
       "price": 129.99,
       "short_description": " Enjoy your favorite music and podcasts with these comfortable earbuds.",
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Tablet",
       "price": 399.99,
       "short_description": " Stay productive and entertained on the go with this versatile tablet.",
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Portable Speaker",
       "price": 99.99,
       "short_description": " Take your music anywhere with this compact and powerful portable speaker.",
@@ -120,7 +120,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Web Camera",
       "price": 59.99,
       "short_description": " Stay connected with this high-quality web camera. ",

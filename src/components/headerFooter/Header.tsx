@@ -1,7 +1,8 @@
-import styles from "./styles/HFer.module.css";
-import headerData from "../assets/header.json";
+import styles from "../styles/HFer.module.css";
+import headerData from "../../assets/header.json";
+import Link from "next/link";
 import Image from "next/image";
-import laptopIcon from "../assets/images/icons/laptopIcon.png";
+import laptopIcon from "../../assets/images/icons/laptopIcon.png";
 
 const Header = () => {
   const HEADER = headerData as {
@@ -18,9 +19,9 @@ const Header = () => {
         </div>
         <div className={styles.links}>
           {HEADER.links.map((link) => (
-            <a href={link.href} className={styles.link} key={link.name}>
+            <Link href={link.href} key={link.name} className={styles.link}>
               {link.name}
-            </a>
+            </Link>
           ))}
         </div>
       </div>

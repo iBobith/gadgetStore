@@ -1,9 +1,9 @@
-import styles from "./styles/Features.module.css";
-import featuresData from "../assets/homeText.json";
+import styles from "../styles/Features.module.css";
+import featuresData from "../../assets/homeText.json";
 import Image, { type StaticImageData } from "next/image";
-import wifi from "../assets/images/icons/wifiIcon.png";
-import phoneWatch from "../assets/images/icons/phoneWatchIcon.png";
-import light from "../assets/images/icons/lightIcon.png";
+import wifi from "../../assets/images/icons/wifiIcon.png";
+import phoneWatch from "../../assets/images/icons/phoneWatchIcon.png";
+import light from "../../assets/images/icons/lightIcon.png";
 
 const ICONS: Record<string, StaticImageData> = {
   wifiIcon: wifi,
