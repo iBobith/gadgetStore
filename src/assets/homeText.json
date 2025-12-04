@@ -4,7 +4,8 @@
     "heroText": "Unleash your inner tech enthusiast with our wide range of gadgets. Become a pro expert within a moment.",
     "contact": "CONTACT US",
     "shop": "SHOP NOW",
-    "shopRef": "/products"
+    "shopRef": "/products",
+    "contactRef": "/contact"
   },
   {
     "featureId": "wireless",

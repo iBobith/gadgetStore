@@ -9,6 +9,7 @@
   width: 250px;
   max-width: 100%;
   position: relative;
+  justify-content: space-between;
 }
 
 .card:hover {
