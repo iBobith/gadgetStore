@@ -10,6 +10,7 @@ type HeroText = {
   contact: string;
   shop: string;
   shopRef: string;
+  contactRef: string;
 };
 type FeatureLike = {
   featureId?: string;
@@ -29,10 +30,17 @@ export default function Hero() {
   const contact = heroEntry?.contact;
   const shop = heroEntry?.shop;
   const shopRef = heroEntry?.shopRef;
+  const contactRef = heroEntry?.contactRef;
 
   function handleShopClick() {
     if (shopRef) {
       window.location.href = shopRef;
+    }
+  }
+
+  function handleContactClick() {
+    if (contactRef) {
+      window.location.href = contactRef;
     }
   }
 
@@ -44,7 +52,7 @@ export default function Hero() {
             <h1 className={styles.heroTitle}>{title}</h1>
             <p className={styles.heroLead}>{lead}</p>
             <div className={styles.heroActions}>
-              <button>{contact}</button>
+              <button onClick={handleContactClick}>{contact}</button>
               <button onClick={handleShopClick}>{shop}</button>
             </div>
           </div>

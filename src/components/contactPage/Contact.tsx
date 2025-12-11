@@ -6,11 +6,13 @@ export default function ContactCard({
   children,
   className,
   boxClassName,
+  icon,
 }: {
   title: string;
   children: React.ReactNode;
   className?: string;
   boxClassName?: string;
+  icon?: React.ReactNode;
 }) {
   const containerClass = className ? className : styles.featureGrid;
   const articleClass = boxClassName
@@ -20,6 +22,18 @@ export default function ContactCard({
   return (
     <div className={containerClass}>
       <article className={articleClass}>
+        {icon && (
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              marginBottom: 8,
+            }}
+          >
+            {icon}
+          </div>
+        )}
         <h3 style={{ margin: 0, color: "#111111", fontSize: "1.125rem" }}>
           {title}
         </h3>

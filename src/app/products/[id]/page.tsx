@@ -159,7 +159,7 @@ export default async function ProductPage({
               </div>
 
               <div className="mt-6">
-                <a href="/products" className="text-blue-600 underline">
+                <a href="../Products" className="text-blue-600 underline">
                   Back to products
                 </a>
               </div>

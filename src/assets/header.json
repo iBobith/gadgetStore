@@ -3,7 +3,6 @@
   "links": [
     { "name": "Home", "href": "/" },
     { "name": "Products", "href": "/products" },
-    { "name": "Contact", "href": "/contacts" },
-    { "name": "Cart (0)", "href": "/cart" }
+    { "name": "Contact", "href": "/contacts" }
   ]
 }

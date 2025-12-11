@@ -35,7 +35,7 @@ export default function Card({
       product.image.startsWith("http") ||
       product.image.startsWith("data:")
       ? product.image
-      : `/${product.image}`
+      : `/product_images/${titleToSrc(product.title)}.png`
     : `/product_images/${titleToSrc(product.title)}.png`;
 
   const [openMenu, setOpenMenu] = useState(false);

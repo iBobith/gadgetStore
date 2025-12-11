@@ -83,15 +83,27 @@ export default function EditProduct({ product, onClose, onSaved }: Props) {
       );
       const existing = getRes.ok ? await getRes.json().catch(() => ({})) : {};
 
+      function sanitizeInput(input: string): string {
+        return input
+          .replace(/['"`;]/g, "")
+          .replace(/--/g, "")
+          .replace(/\\/g, "")
+          .replace(
+            /\b(SELECT|INSERT|DELETE|UPDATE|DROP|CREATE|ALTER|EXEC)\b/gi,
+            ""
+          )
+          .trim();
+      }
+
       const payload: Record<string, unknown> = {
         ...existing,
-        title,
+        title: sanitizeInput(title),
         price: price === "" ? 0 : Number(price),
-        short_description: shortDescription,
-        long_description: longDescription,
+        short_description: sanitizeInput(shortDescription),
+        long_description: sanitizeInput(longDescription),
         year: typeof year === "number" ? year : Number(year),
-        RAM: ram,
-        warranty_period: warranty,
+        RAM: sanitizeInput(ram),
+        warranty_period: sanitizeInput(warranty),
       };
 
       if (imageData) payload.image = imageData;
